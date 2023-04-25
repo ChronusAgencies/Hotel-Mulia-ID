@@ -2,7 +2,7 @@ import { LinkProps } from "next/link";
 import { TGeneral } from "../Types/Types";
 import { SVGProps } from "react";
 
-export interface IDataChat {
+export interface IDataChatProps{
     userMessage : string,
     messageTime : number | string,
 }

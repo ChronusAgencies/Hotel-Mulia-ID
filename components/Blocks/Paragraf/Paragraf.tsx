@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Container from '../Container/Container';
+import { TGeneral } from '@/utils/Types/Types';
 
-const Paragraf = () => {
+const Paragraf = ({className,children} : TGeneral) => {
   return (
-    <div>Paragraf</div>
+    <>
+      <Container className={className}>
+        <p>{children}</p>
+      </Container>
+    </>
   )
 }
 
